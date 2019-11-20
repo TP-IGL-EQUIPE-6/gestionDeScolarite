@@ -185,7 +185,8 @@ input {
   height:  auto; 
   min-height:  100%; 
   position:  relative; 
-  background-image: url(./bg.PNG);
+  background-image: url(./bg.PNG
+  );
   background-repeat: no-repeat;
   background-size:cover;
   
