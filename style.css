@@ -11,7 +11,7 @@ html, body {
   display:  flex; 
   align-items:  flex-start; 
   justify-content:  flex-start; 
-  background:  #f3f2f2; 
+  background:  #a17474; 
 }
 h4 {
   font-size:  24px; 
@@ -32,7 +32,7 @@ form {
   flex-direction:  column;
   align-items:  flex-start; 
   padding-bottom:  20px; 
-  width:  300px; }
+  width:  400px; }
   h4 {
     margin-bottom:  20px;
     color:  rgba(#000, .5);}
@@ -136,6 +136,12 @@ input {
     margin-left:  auto;
     display:  flex; 
   }
+  select{
+    width:  calc(100% - 44px); 
+    margin-left:  auto;
+    display:  flex; 
+
+  }
   .icon {
     position:  absolute; 
     top:  0; 
@@ -181,12 +187,11 @@ input {
   box-shadow:  0px 2px 6px -1px rgba(0,0,0,.12);
 }
 .left {
-  width:  220px; 
+  width:  300px; 
   height:  auto; 
   min-height:  100%; 
   position:  relative; 
-  background-image: url(./bg.PNG
-  );
+  background-image: url(./bg.PNG );
   background-repeat: no-repeat;
   background-size:cover;
   
@@ -198,7 +203,3 @@ input {
     margin:  20px; 
   }
 
-.fonct{
-    position: relative;
-
-}

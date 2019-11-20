@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html>
         <head>
-                <title>Login</title>
+                <title>ajouter un etudiant</title>
                 <link rel="stylesheet" type="text/css" href="style.css">
             </head>
             <body>
@@ -17,19 +16,42 @@
                                   </div>
                       <form action="" class="log-in" autocomplete="off"> 
                         <h4>Gestion de <span>Scolarité</span></h4>
-                        <p>Introduisez ces informations avant de lancer la recherche d'un</p>
+                        <p>Voici les fonctionaités que vous pouvez gérer</p>
                         <div class="floating-label">
-                          <input placeholder="Niveau" type="text" name="Niveau" id="Niveau" autocomplete="off">
-                          <label for="Niveau">Niveau:</label>
-                          
+                            <input placeholder="nom" type="text" name="nom" id="nom" autocomplete="off" >
+                            <label for="nom">nom:</label>
+                            
                         </div>
-                        <div class="floating-label">
-                          <input placeholder="groupe" type="number" max="9" min="1" name="groupe" id="groupe" autocomplete="off">
-                          <label for="groupe">groupe:</label>
-                          
+                          <div class="floating-label">
+                            <input placeholder="prenom" type="" name="prenom" id="prenom" autocomplete="off" >
+                            <label for="prenom">prenom:</label>
+                            
                         </div>
                         
-                        <button type="submit" onClick="return false;">Recherche</button>
+                        <div class="floating-label">
+                            <label for="niveau">niveau:</label></br>
+                            <select name="niveau" id="niveau"> 
+                              <option value="1cp">1cp</option>
+                              <option value="2cp">2cp</option>
+                              <option value="1cs">1cs</option>
+                              <option value="2cs">2cs</option>
+                              <option value="3cs">3cs</option>
+                             
+                            </select>
+                            
+                            
+                        </div>
+                        <div class="floating-label">
+                          <input placeholder="groupe" type="number" max="9" min="1" name="groupe" id="groupe" autocomplete="off" >
+                          <label for="groupe">groupe:</label>
+                          
+                      </div>
+                        
+
+                        
+                          <button type="submit" onClick="return false;">creer compte</button>
+                          
+                        
                         
                       </form>
                     </div>
